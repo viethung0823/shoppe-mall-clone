@@ -1,0 +1,205 @@
+:root {
+    --primary-color: #d0011b;
+    --white-color: #fff;
+    --text-color: rgba(0, 0, 0, .8);
+}
+
+.mg-0 {
+    margin: 0 !important;
+}
+
+.mg-lr-2-5 {
+    margin: 0 -2.5px !important;
+}
+
+.mg-lr-7-5 {
+    margin: 0 -7.5px !important;
+}
+
+.mgt-16 {
+    margin-top: 16px !important;
+}
+
+.mgt-30 {
+    margin-top: 30px !important;
+}
+
+.mgt-40 {
+    margin-top: 40px !important;
+}
+
+.pd-0 {
+    padding: 0 !important;
+}
+
+.pdl-4 {
+    /* for favorite-brand */
+    padding-left: 4px;
+    padding-right: 0;
+}
+
+.pdr-4 {
+    /* for favorite-brand */
+    padding-right: 4px;
+    padding-left: 0;
+}
+
+.pdt-30 {
+    padding-top: 30px !important;
+}
+
+.pdt-40 {
+    padding-top: 40px !important;
+}
+
+.pdt-60 {
+    padding-top: 60px !important;
+}
+
+.pdb-40 {
+    padding-bottom: 40px !important;
+}
+
+.pdb-60 {
+    padding-bottom: 60px !important;
+}
+
+.pdb-140 {
+    padding-bottom: 140px !important;
+}
+
+.pd-lr-2-5 {
+    padding: 0 2.5px !important;
+}
+
+.pd-lr-7-5 {
+    padding: 0 7.5px !important;
+}
+
+.height-100 {
+    height: 100% !important;
+}
+
+.fl-ver {
+    display: flex;
+    align-items: center;
+}
+
+.fl-cen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fl-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.fl-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cv {
+    /* use for child elements which is smaller than its parent */
+    display: block !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+}
+
+@keyframes smoother-grow {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+
+    11.1111111111% {
+        left: 0%;
+    }
+
+    12.5% {
+        left: -100%;
+    }
+
+    23.6111111111% {
+        left: -100%;
+    }
+
+    25% {
+        left: -200%;
+    }
+
+    36.1111111111% {
+        left: -200%;
+    }
+
+    37.5% {
+        left: -300%;
+    }
+
+    48.6111111111% {
+        left: -300%;
+    }
+
+    50% {
+        left: -400%;
+    }
+
+    61.1111111111% {
+        left: -400%;
+    }
+
+    62.5% {
+        left: -500%;
+    }
+
+    73.6111111111% {
+        left: -500%;
+    }
+
+    75% {
+        left: -600%;
+    }
+
+    86.1111111111% {
+        left: -600%;
+    }
+
+    87.5% {
+        left: -700%;
+    }
+
+    98.6111111111% {
+        left: -700%;
+    }
+
+    100% {
+        left: -800%;
+    }
+}

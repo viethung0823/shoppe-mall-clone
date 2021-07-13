@@ -1,0 +1,77 @@
+Plan {
+    1. header 
+      1.1 nav
+      1.2 search
+      1.3 search-m
+    2. category 
+    3. contents
+        1. slider 
+        2, pros-mall
+        3. daily-content
+        4. daily-brand
+        5. other-brand
+        6. discount-mall
+        7. forvorite-brand
+        8. suggest-product
+    4. footer
+        1. pros-mall--bottom
+        2. about-mall
+        3. ft-info
+        4. contact-mall
+}
+
+Bug {
+    2 icon-header kh deu
+    border-radius top-right,left qr-nav 
+    store-img kh dung duoc anchor-el
+    hover text noti kh duoc full
+    ::select khac mau do opacity
+    hover mất màu khi kéo xuống qr và noti
+    pop up noti right là % hay px lên khi thay đổi resolution sẽ bị lệch
+    border footer
+}
+
+Thay pop-up--noti--empty va pop-up--cart--empty thanh --content de hien thi content
+
+map pop-up {
+  .pop-up--noti--content
+  .pop-up--noti--empty
+  .pop-up--cart--content
+  .pop-up--cart--empty
+
+    pop-up-top--content
+
+    pop-up-center--content
+      content-item
+      content-img
+      content-text
+
+    pop-up-center-empty
+      empty-img
+      empty-text
+
+    popup-bottom--empty
+      empty-text--half
+
+    popup-bottom--content
+}
+
+mobile no media query needed full screen
+tablet - ipad (740 - 1023) wide 644
+small pc - ipad pro (1024 - 1239) wide 984
+regular pc - my laptop 1366 (>= 1240) wide 1200
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
